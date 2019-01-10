@@ -1,0 +1,28 @@
+/* https://www.codechef.com/JULY14/problems/GERALD09/ */
+#include <cstdio>
+#include <cmath>
+#include <iostream>
+
+int main() {
+	const double u=10,v=2; // constraints
+	const int q=15,z=16;// constraints
+	int n,m,k,t,str; //variables
+	scanf("%d", &t); // input t
+	str=pow(u,v); //cmath - to double data type u powered by v,
+	if (t>0 && t<=str) { //constraints before executing testcases
+	do { // used do while loop
+	   scanf("%d%d%d",&n,&m,&k); // input variable n,m & k
+		 if (n>=1 && n<=q && m>0 && m<z) //constraints for n m k
+		      {
+		  for(int i=1;i<=n; i++) //for loop from 1-n
+			{
+			  for(int j=1;j<=m; j++) // for loop for 1-m
+			printf("A");
+			std::cout << std::endl; //newline
+			} t--; //decrement for testcases
+			   }
+	   }
+		while(t>0); //do while for testcases
+		return 0;
+		  }	// iceparticle.com
+	}

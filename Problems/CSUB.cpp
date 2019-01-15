@@ -1,8 +1,9 @@
+/* https://www.codechef.com/JULY14/problems/CSUB/ */
 #include <iostream>
 #include <string>
 using namespace std;
 
-int main () { 
+int main () {
 
 string y;
 int counter,x;

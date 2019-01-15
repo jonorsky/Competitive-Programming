@@ -1,3 +1,4 @@
+/* https://www.codechef.com/problems/PPSUM */
 #include <iostream>
 #include <cmath>
 using namespace std;

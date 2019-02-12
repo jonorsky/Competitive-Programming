@@ -9,6 +9,9 @@ int main(){
   cin >> t;
   while(t--){
     cin >> n;
+    for(int i=0; i<n; i++){
+      
+    }
   }
   return 0;
 }

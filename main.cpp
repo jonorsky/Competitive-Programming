@@ -5,10 +5,10 @@ using namespace std;
 
 int main(){
   vector<int> vec;
-  int t;
+  int t,n;
   cin >> t;
   while(t--){
-    
+    cin >> n;
   }
   return 0;
 }

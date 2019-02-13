@@ -10,6 +10,11 @@ int main(){
 
   cout << m_map["Hello"] << endl;
 
+  map<char,int> maps;
+  for(int i=0; i<5; i++){
+    maps[char(i+95)]++;
+  }
+
 
   return 0;
 }

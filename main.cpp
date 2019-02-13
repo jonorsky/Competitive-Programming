@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
   map<string,int> m_map;
+  map<string,int>::iterator it;
   m_map["Hello"]++;
 
   cout << m_map["Hello"] << endl;

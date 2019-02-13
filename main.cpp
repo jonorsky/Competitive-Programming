@@ -16,6 +16,9 @@ int main(){
     maps[char(i+95)]++;
   }
 
+  for(it=m_map.begin(); it!=m_map.end(); i++){
+    cout << it->first << ' ' << it->second << end;
+  }
 
   return 0;
 }

@@ -7,6 +7,11 @@ void swap(int *xp, int*yp){
   *yp = temp;
 }
 
+void selectionSort(int arr[],int n){
+  int i,j,min_idx;
+  
+}
+
 int main(){
 
 

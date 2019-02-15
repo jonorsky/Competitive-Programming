@@ -17,7 +17,9 @@ int main(){
 
   void inorder(struct Node *temp){
     if(!temp) return;
-    
+    inorder(temp->left);
+    cout << temp->key << " ";
+    inorder(temp->right);
   }
 
   return 0;

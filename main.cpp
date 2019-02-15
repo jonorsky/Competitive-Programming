@@ -22,5 +22,9 @@ int main(){
     inorder(temp->right);
   }
 
+  void insert(struct Node*temp, int key){
+    queue<struct Node*>q;
+    q.push(temp);
+  }
   return 0;
 }

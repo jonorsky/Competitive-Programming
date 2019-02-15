@@ -8,5 +8,10 @@ int main(){
     struct Node *left, *right;
   };
 
+  struct Node *newNode(int key){
+    struct Node* temp = new Node;
+    
+  }
+
   return 0;
 }

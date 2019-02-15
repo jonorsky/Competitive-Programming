@@ -25,6 +25,15 @@ int main(){
   void insert(struct Node*temp, int key){
     queue<struct Node*>q;
     q.push(temp);
+
+    while(!q.empty()){
+      struct Node* temp = q.front();
+      q.pop();
+
+      if(!temp->left){
+        temp->left = newNode(key);
+      }
+    }
   }
   return 0;
 }

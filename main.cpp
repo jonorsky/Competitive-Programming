@@ -18,5 +18,8 @@ int main(){
 	cout << "The stack is : ";
 	showstack(s);
 	
+	cout << "\ns.size() : " << s.size();
+	cout << "\ns.top() : " << s.top();
+	
 	return 0;
 }

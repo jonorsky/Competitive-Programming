@@ -15,6 +15,8 @@ int main(){
 	s.push(10);
 	s.push(30);
 	
+	cout << "The stack is : ";
+	showstack(s);
 	
 	return 0;
 }

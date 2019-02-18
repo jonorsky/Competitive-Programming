@@ -21,5 +21,9 @@ int main(){
 	cout << "\ns.size() : " << s.size();
 	cout << "\ns.top() : " << s.top();
 	
+	cout << "\ns.pop() : ";
+	s.pop();
+	showstack(s);
+	
 	return 0;
 }
